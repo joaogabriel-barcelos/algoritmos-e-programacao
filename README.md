@@ -6,4 +6,4 @@ Repositório com os exercícios desenvolvidos na cadeira de **Algoritmos e Progr
 - C (compilado com GCC via Code::Blocks)
 
 ## Organização
-Os arquivos estão organizados por tópico ou lista de exercícios.#Exercícios de Algoritmos e Porgramação em C
+Os arquivos estão organizados por tópico ou lista de exercícios.
