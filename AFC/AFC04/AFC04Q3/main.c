@@ -6,17 +6,17 @@ int main()
 {
     setlocale(LC_ALL,"Portuguese");
     char sexo;
-    printf("Digite a letra inicial do seu sexo (M ou F)\n");
+    printf("Digite a letra inicial do seu sexo (M, F ou NB)\n");
     scanf("%c",&sexo);
 
-    if(sexo=='M'){
+    if(sexo=='M' || sexo=='m'){
         printf("Masculino");
     }
-    else if(sexo=='F'){
+    else if(sexo=='F' || sexo=='f'){
         printf("Feminino");
     }
-    else{
-            printf("Opção inválida");
+    else if(sexo=='NB' || sexo=='nb'){
+        printf("Não binário");
     }
 
     return 0;
